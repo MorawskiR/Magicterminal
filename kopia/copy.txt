@@ -1,0 +1,340 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 168188  7928 ?        Ss   Mar10   0:05 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Mar10   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Mar10   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Mar10   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kworker/0:0H-kblockd]
+root           9  0.0  0.0      0     0 ?        I<   Mar10   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Mar10   0:04 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    Mar10   2:44 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    Mar10   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    Mar10   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    Mar10   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    Mar10   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    Mar10   0:00 [idle_inject/1]
+root          17  0.0  0.0      0     0 ?        S    Mar10   0:00 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    Mar10   0:03 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kworker/1:0H-kblockd]
+root          21  0.0  0.0      0     0 ?        S    Mar10   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    Mar10   0:00 [idle_inject/2]
+root          23  0.0  0.0      0     0 ?        S    Mar10   0:00 [migration/2]
+root          24  0.0  0.0      0     0 ?        S    Mar10   0:02 [ksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kworker/2:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    Mar10   0:00 [cpuhp/3]
+root          28  0.0  0.0      0     0 ?        S    Mar10   0:00 [idle_inject/3]
+root          29  0.0  0.0      0     0 ?        S    Mar10   0:00 [migration/3]
+root          30  0.0  0.0      0     0 ?        S    Mar10   0:03 [ksoftirqd/3]
+root          32  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kworker/3:0H-kblockd]
+root          33  0.0  0.0      0     0 ?        S    Mar10   0:00 [kdevtmpfs]
+root          34  0.0  0.0      0     0 ?        I<   Mar10   0:00 [netns]
+root          35  0.0  0.0      0     0 ?        S    Mar10   0:00 [rcu_tasks_kthre]
+root          36  0.0  0.0      0     0 ?        S    Mar10   0:00 [rcu_tasks_rude_]
+root          37  0.0  0.0      0     0 ?        S    Mar10   0:00 [rcu_tasks_trace]
+root          38  0.0  0.0      0     0 ?        S    Mar10   0:21 [kauditd]
+root          40  0.0  0.0      0     0 ?        S    Mar10   0:00 [khungtaskd]
+root          41  0.0  0.0      0     0 ?        S    Mar10   0:02 [oom_reaper]
+root          42  0.0  0.0      0     0 ?        I<   Mar10   0:00 [writeback]
+root          43  0.0  0.0      0     0 ?        S    Mar10   0:00 [kcompactd0]
+root          44  0.0  0.0      0     0 ?        SN   Mar10   0:00 [ksmd]
+root          45  0.0  0.0      0     0 ?        SN   Mar10   0:00 [khugepaged]
+root          91  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kintegrityd]
+root          92  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kblockd]
+root          93  0.0  0.0      0     0 ?        I<   Mar10   0:00 [blkcg_punt_bio]
+root          94  0.0  0.0      0     0 ?        I<   Mar10   0:00 [tpm_dev_wq]
+root          95  0.0  0.0      0     0 ?        I<   Mar10   0:00 [ata_sff]
+root          96  0.0  0.0      0     0 ?        I<   Mar10   0:00 [md]
+root          97  0.0  0.0      0     0 ?        I<   Mar10   0:00 [edac-poller]
+root          98  0.0  0.0      0     0 ?        I<   Mar10   0:00 [devfreq_wq]
+root          99  0.0  0.0      0     0 ?        S    Mar10   0:00 [watchdogd]
+root         102  0.0  0.0      0     0 ?        I<   Mar10   0:00 [pm_wq]
+root         104  0.0  0.0      0     0 ?        S    Mar10   0:31 [kswapd0]
+root         105  0.0  0.0      0     0 ?        S    Mar10   0:00 [ecryptfs-kthrea]
+root         107  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kthrotld]
+root         109  0.0  0.0      0     0 ?        I<   Mar10   0:00 [acpi_thermal_pm]
+root         110  0.0  0.0      0     0 ?        I<   Mar10   0:00 [vfio-irqfd-clea]
+root         112  0.0  0.0      0     0 ?        I<   Mar10   0:00 [ipv6_addrconf]
+root         121  0.0  0.0      0     0 ?        I<   Mar10   0:00 [kstrp]
+root         124  0.0  0.0      0     0 ?        I<   Mar10   0:00 [zswap-shrink]
+root         132  0.0  0.0      0     0 ?        I<   Mar10   0:00 [charger_manager]
+root         185  0.0  0.0      0     0 ?        I<   Mar10   0:00 [sdhci]
+root         188  0.0  0.0      0     0 ?        S    Mar10   0:00 [scsi_eh_0]
+root         189  0.0  0.0      0     0 ?        I<   Mar10   0:00 [scsi_tmf_0]
+root         190  0.0  0.0      0     0 ?        S    Mar10   0:00 [scsi_eh_1]
+root         191  0.0  0.0      0     0 ?        I<   Mar10   0:00 [scsi_tmf_1]
+root         192  0.0  0.0      0     0 ?        S    Mar10   0:00 [scsi_eh_2]
+root         193  0.0  0.0      0     0 ?        I<   Mar10   0:00 [scsi_tmf_2]
+root         194  0.0  0.0      0     0 ?        S    Mar10   0:00 [scsi_eh_3]
+root         195  0.0  0.0      0     0 ?        I<   Mar10   0:00 [scsi_tmf_3]
+root         196  0.0  0.0      0     0 ?        S    Mar10   0:00 [scsi_eh_4]
+root         197  0.0  0.0      0     0 ?        I<   Mar10   0:00 [scsi_tmf_4]
+root         198  0.0  0.0      0     0 ?        S    Mar10   0:00 [scsi_eh_5]
+root         199  0.0  0.0      0     0 ?        I<   Mar10   0:00 [scsi_tmf_5]
+root         209  0.0  0.0      0     0 ?        I<   Mar10   0:13 [kworker/0:1H-events_highpri]
+root         210  0.0  0.0      0     0 ?        I<   Mar10   0:10 [kworker/3:1H-events_highpri]
+root         231  0.0  0.0      0     0 ?        I<   Mar10   0:10 [kworker/2:1H-events_highpri]
+root         232  0.0  0.0      0     0 ?        S    Mar10   0:09 [jbd2/sdb2-8]
+root         233  0.0  0.0      0     0 ?        I<   Mar10   0:00 [ext4-rsv-conver]
+root         234  0.0  0.0      0     0 ?        I<   Mar10   0:10 [kworker/1:1H-events_highpri]
+root         273  0.0  0.6 142512 66816 ?        S<s  Mar10   3:41 /lib/systemd/systemd-journald
+root         301  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop0]
+root         311  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop1]
+root         326  0.0  0.0  23824  2512 ?        Ss   Mar10   0:01 /lib/systemd/systemd-udevd
+root         327  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop2]
+root         328  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop3]
+root         330  0.0  0.0      0     0 ?        S<   Mar10   0:04 [loop4]
+root         331  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop5]
+root         332  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop6]
+root         333  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop7]
+root         334  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop8]
+root         362  0.0  0.0      0     0 ?        S<   Mar10   0:01 [loop9]
+root         363  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop10]
+root         364  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop11]
+root         365  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop12]
+root         369  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop13]
+root         372  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop14]
+root         385  0.0  0.0      0     0 ?        I<   Mar10   0:00 [cfg80211]
+root         389  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop15]
+root         396  0.0  0.0      0     0 ?        I<   Mar10   0:00 [ktpacpid]
+root         400  0.0  0.0      0     0 ?        S    Mar10   2:56 [irq/33-iwlwifi]
+root         401  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop16]
+root         404  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop17]
+root         409  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop18]
+root         415  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop19]
+root         417  0.0  0.0      0     0 ?        I<   Mar10   0:00 [cryptd]
+root         419  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop20]
+root         450  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop21]
+root         458  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop22]
+root         459  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop23]
+root         479  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop24]
+root         481  0.0  0.0      0     0 ?        S<   Mar10   0:00 [loop25]
+systemd+     862  0.0  0.0  24628  4180 ?        Ss   Mar10   0:12 /lib/systemd/systemd-resolved
+systemd+     864  0.0  0.0  90456  2288 ?        Ssl  Mar10   0:00 /lib/systemd/systemd-timesyncd
+root         904  0.0  0.0 238276  1840 ?        Ssl  Mar10   0:07 /usr/lib/accountsservice/accounts-daemon
+root         905  0.0  0.0   2680  1376 ?        Ss   Mar10   0:24 /usr/sbin/acpid
+avahi        908  0.0  0.0   8536  2296 ?        Ss   Mar10   0:12 avahi-daemon: running [rafal-ThinkPad-T430.local]
+root         910  0.0  0.0   8368  2916 ?        Ss   Mar10   0:00 /usr/lib/bluetooth/bluetoothd
+root         913  0.0  0.0   9420  1064 ?        Ss   Mar10   0:00 /usr/sbin/cron -f
+message+     915  0.0  0.0   9960  4752 ?        Ss   Mar10   0:18 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         917  0.0  0.1 549248 10248 ?        Ssl  Mar10   0:28 /usr/sbin/NetworkManager --no-daemon
+root         924  0.0  0.0  81900   124 ?        Ssl  Mar10   0:07 /usr/sbin/irqbalance --foreground
+root         928  0.0  0.0  39324   408 ?        Ss   Mar10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         933  0.0  0.0 241140  7408 ?        Ssl  Mar10   0:07 /usr/lib/policykit-1/polkitd --no-debug
+syslog       936  0.0  0.0 224356  3024 ?        Ssl  Mar10   0:08 /usr/sbin/rsyslogd -n -iNONE
+root         948  0.0  0.1 1374604 18008 ?       Ssl  Mar10   0:19 /usr/lib/snapd/snapd
+root         949  0.0  0.0 235724  3140 ?        Ssl  Mar10   0:00 /usr/libexec/switcheroo-control
+root         950  0.0  0.0  17088  4180 ?        Ss   Mar10   0:08 /lib/systemd/systemd-logind
+root         951  0.0  0.0 125880   284 ?        Ssl  Mar10   0:06 /usr/sbin/thermald --no-daemon --dbus-enable
+root         952  0.0  0.0 393404  8532 ?        Ssl  Mar10   0:26 /usr/lib/udisks2/udisksd
+root         953  0.0  0.0  14176  5400 ?        Ss   Mar10   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        959  0.0  0.0   8352    16 ?        S    Mar10   0:00 avahi-daemon: chroot helper
+root        1017  0.0  0.0 240168  4828 ?        Ssl  Mar10   0:01 /usr/sbin/ModemManager --filter-policy=strict
+colord      1043  0.0  0.0 320092  7440 ?        Ssl  Mar10   0:00 /usr/libexec/colord
+root        1067  0.0  0.0 239616  3836 ?        Ssl  Mar10   0:00 /usr/sbin/gdm3
+root        1074  0.0  0.0 117852   268 ?        Ssl  Mar10   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+rtkit       1121  0.0  0.0 152940   124 ?        SNsl Mar10   0:01 /usr/libexec/rtkit-daemon
+root        1221  0.0  0.0 252456  3484 ?        Ssl  Mar10   0:04 /usr/lib/upower/upowerd
+whoopsie    1583  0.0  0.0 326872  4956 ?        Ssl  Mar10   0:00 /usr/bin/whoopsie -f
+kernoops    1584  0.0  0.0  11264    96 ?        Ss   Mar10   0:05 /usr/sbin/kerneloops --test
+kernoops    1586  0.0  0.0  11264   632 ?        Ss   Mar10   0:05 /usr/sbin/kerneloops
+root        1597  0.0  0.0 314804  5552 ?        Sl   Mar10   0:00 gdm-session-worker [pam/gdm-password]
+rafal       1606  0.0  0.0  19584  6060 ?        Ss   Mar10   0:05 /lib/systemd/systemd --user
+rafal       1607  0.0  0.0 169592    48 ?        S    Mar10   0:00 (sd-pam)
+rafal       1612  0.1  0.1 4366708 11244 ?       S<sl Mar10   8:13 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+rafal       1614  0.0  0.1 790060 11488 ?        SNsl Mar10   0:02 /usr/libexec/tracker-miner-fs
+rafal       1617  0.0  0.0  14156  9112 ?        Ss   Mar10   0:15 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rafal       1619  0.0  0.0 240156  3016 ?        Sl   Mar10   0:02 /usr/bin/gnome-keyring-daemon --daemonize --login
+rafal       1626  0.0  0.0 239816  3380 ?        Ssl  Mar10   0:00 /usr/libexec/gvfsd
+rafal       1631  0.0  0.0 378344  2536 ?        Sl   Mar10   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rafal       1650  0.0  0.0 314188  7544 ?        Ssl  Mar10   0:08 /usr/libexec/gvfs-udisks2-volume-monitor
+rafal       1656  0.0  0.0 238108  3248 ?        Ssl  Mar10   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+rafal       1661  0.0  0.0 316728  3400 ?        Ssl  Mar10   0:05 /usr/libexec/gvfs-afc-volume-monitor
+rafal       1669  0.0  0.0 235876  3004 ?        Ssl  Mar10   0:00 /usr/libexec/gvfs-goa-volume-monitor
+root        1670  0.0  0.0      0     0 ?        S<   Mar10   0:00 [krfcommd]
+rafal       1674  0.0  0.0 546136  3596 ?        Sl   Mar10   0:00 /usr/libexec/goa-daemon
+rafal       1681  0.0  0.0 314756   948 ?        Sl   Mar10   0:01 /usr/libexec/goa-identity-service
+rafal       1686  0.0  0.0 235700  3456 ?        Ssl  Mar10   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+rafal       1694  0.0  0.0 164020  2644 tty2     Ssl+ Mar10   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rafal       1697  0.9  0.6 875652 61140 tty2     Sl+  Mar10  49:54 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+rafal       1725  0.0  0.0 188288     0 tty2     Sl+  Mar10   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+rafal       1792  0.0  0.0   6040    32 ?        Ss   Mar10   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rafal       1813  0.0  0.0 305416  1960 ?        Ssl  Mar10   0:00 /usr/libexec/at-spi-bus-launcher
+rafal       1818  0.0  0.0   7380  2252 ?        S    Mar10   0:02 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+rafal       1828  0.0  0.0  90064     0 ?        Ssl  Mar10   0:00 /usr/libexec/gnome-session-ctl --monitor
+rafal       1835  0.0  0.0 484492  6024 ?        Ssl  Mar10   0:02 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+rafal       1850  2.7  3.1 4683688 314564 ?      Ssl  Mar10 153:15 /usr/bin/gnome-shell
+rafal       1873  0.0  0.0 310944  2788 ?        Sl   Mar10   0:01 ibus-daemon --panel disable --xim
+rafal       1877  0.0  0.0 236524  2660 ?        Sl   Mar10   0:00 /usr/libexec/ibus-dconf
+rafal       1878  0.0  0.1 270948 11996 ?        Sl   Mar10   0:02 /usr/libexec/ibus-extension-gtk3
+rafal       1880  0.0  0.0 191304  8572 ?        Sl   Mar10   0:00 /usr/libexec/ibus-x11 --kill-daemon
+rafal       1885  0.0  0.0 237032  3928 ?        Sl   Mar10   0:02 /usr/libexec/ibus-portal
+rafal       1895  0.0  0.0 162876  2084 ?        Sl   Mar10   0:07 /usr/libexec/at-spi2-registryd --use-gnome-session
+rafal       1899  0.0  0.0 235596  2984 ?        Ssl  Mar10   0:00 /usr/libexec/xdg-permission-store
+rafal       1902  0.0  0.0 581064  5720 ?        Sl   Mar10   0:00 /usr/libexec/gnome-shell-calendar-server
+rafal       1910  0.0  0.0 1004660 5596 ?        Ssl  Mar10   0:00 /usr/libexec/evolution-source-registry
+rafal       1919  0.0  0.0 1379360 5788 ?        Ssl  Mar10   0:00 /usr/libexec/evolution-calendar-factory
+rafal       1923  0.0  0.0 156352  2980 ?        Sl   Mar10   0:00 /usr/libexec/dconf-service
+rafal       1934  0.0  0.0 820648  5516 ?        Ssl  Mar10   0:00 /usr/libexec/evolution-addressbook-factory
+rafal       1949  0.0  0.1 2660176 16080 ?       Sl   Mar10   0:01 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+rafal       1957  0.0  0.0 314088  4408 ?        Sl   Mar10   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+rafal       1967  0.0  0.0 309656  2220 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-a11y-settings
+rafal       1968  0.0  0.1 723408 12740 ?        Ssl  Mar10   0:02 /usr/libexec/gsd-color
+rafal       1971  0.0  0.0 373616  1944 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-datetime
+rafal       1973  0.0  0.0 312064  2232 ?        Ssl  Mar10   0:06 /usr/libexec/gsd-housekeeping
+rafal       1982  0.0  0.0 339332  6480 ?        Ssl  Mar10   0:01 /usr/libexec/gsd-keyboard
+rafal       1984  0.0  0.1 1156936 12176 ?       Ssl  Mar10   0:02 /usr/libexec/gsd-media-keys
+rafal       1985  0.0  0.1 680504 12100 ?        Ssl  Mar10   0:02 /usr/libexec/gsd-power
+rafal       1986  0.0  0.0 248244  4176 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-print-notifications
+rafal       1987  0.0  0.0 457100  2228 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-rfkill
+rafal       1988  0.0  0.0 235636  2852 ?        Ssl  Mar10   0:01 /usr/libexec/gsd-screensaver-proxy
+rafal       1996  0.0  0.0 464784  3364 ?        Ssl  Mar10   0:08 /usr/libexec/gsd-sharing
+rafal       1997  0.0  0.0 315156  3036 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-smartcard
+rafal       2000  0.0  0.0 319348  1824 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-sound
+rafal       2006  0.0  0.0 458696  3252 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-usb-protection
+rafal       2016  0.0  0.0 338708  6728 ?        Ssl  Mar10   0:01 /usr/libexec/gsd-wacom
+rafal       2017  0.0  0.0 313984  1700 ?        Ssl  Mar10   0:00 /usr/libexec/gsd-wwan
+rafal       2020  0.0  0.0 339972  9688 ?        Ssl  Mar10   0:01 /usr/libexec/gsd-xsettings
+rafal       2022  0.0  0.0 231800  4284 ?        Sl   Mar10   0:00 /usr/libexec/gsd-disk-utility-notify
+rafal       2043  0.0  0.1 635376 13464 ?        Sl   Mar10   0:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+rafal       2056  0.0  0.0 342192  3288 ?        Sl   Mar10   0:00 /usr/libexec/gsd-printer
+rafal       2092  0.0  0.0 162696  2376 ?        Sl   Mar10   0:00 /usr/libexec/ibus-engine-simple
+rafal       2101  0.0  6.5 1891748 652160 ?      Sl   Mar10   0:42 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+rafal       2127  0.0  0.0 605132  2008 ?        Ssl  Mar10   0:02 /usr/libexec/xdg-document-portal
+rafal       2769  0.0  0.0 162388  3624 ?        Ssl  Mar10   0:00 /usr/libexec/gvfsd-metadata
+rafal       2772  0.0  0.3 458780 30180 ?        Sl   Mar10   0:04 update-notifier
+rafal       2901  0.2  1.0 5190268 103140 ?      Sl   Mar10  13:42 /snap/discord/121/usr/share/discord/Discord --no-sandbox
+rafal       2965  0.0  0.0 389060    20 ?        S    Mar10   0:00 /snap/discord/121/usr/share/discord/Discord --type=zygote --no-zygote-sandbox --no-sandbox
+rafal       2966  0.0  0.0 389060     0 ?        S    Mar10   0:00 /snap/discord/121/usr/share/discord/Discord --type=zygote --no-sandbox
+rafal       2992  0.0  0.4 566052 45756 ?        Sl   Mar10   2:04 /snap/discord/121/usr/share/discord/Discord --type=gpu-process --field-trial-handle=11995029370387113983,6320970731152248134,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --no-sandbox --enable-crash-reporter=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel --global-crash-keys=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.13 --gpu-preferences=MAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+rafal       3000  0.0  0.3 475088 32396 ?        Sl   Mar10   0:11 /snap/discord/121/usr/share/discord/Discord --type=utility --field-trial-handle=11995029370387113983,6320970731152248134,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel --global-crash-keys=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.13 --shared-files=v8_snapshot_data:100
+rafal       3038  0.4  4.1 18186448 419580 ?     Sl   Mar10  23:55 /snap/discord/121/usr/share/discord/Discord --type=renderer --no-sandbox --autoplay-policy=no-user-gesture-required --field-trial-handle=11995029370387113983,6320970731152248134,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel --global-crash-keys=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.13 --app-path=/snap/discord/121/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --native-window-open --preload=/home/rafal/snap/discord/121/.config/discord/0.0.13/modules/discord_desktop_core/core.asar/app/mainScreenPreload.js --context-isolation --background-color=#202225 --enable-spellcheck --enable-websql --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --enable-node-leakage-in-renderers
+rafal       3061  0.0  0.1 725872 11808 ?        Sl   Mar10   0:03 /snap/discord/121/usr/share/discord/Discord --type=utility --field-trial-handle=11995029370387113983,6320970731152248134,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=audio --no-sandbox --enable-crash-reporter=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel --global-crash-keys=9f775468-3ac5-423e-aea7-3d21aedec628,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.13 --shared-files=v8_snapshot_data:100
+rafal       3467  3.3  6.1 4505116 620436 ?      Sl   Mar10 184:31 /usr/lib/firefox/firefox -new-window
+rafal       3544  1.6  5.1 3208232 520392 ?      Sl   Mar10  90:01 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal       3600  0.0  0.5 2425184 51812 ?       Sl   Mar10   1:22 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6285 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal       3648  1.9  0.5 325944 57892 ?        Sl   Mar10 105:37 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210222142601 -prefsLen 7144 -prefMapSize 233072 -appdir /usr/lib/firefox/browser 3467 true rdd
+rafal       3651  0.1  1.0 2494676 100872 ?      Sl   Mar10   7:29 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7144 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal       6714  0.0  0.3 821148 38244 ?        Ssl  Mar10   0:14 /usr/libexec/gnome-terminal-server
+rafal       6722  0.0  0.0  11012  2600 pts/0    Ss+  Mar10   0:00 bash
+rafal       6746  0.0  1.2 5265520 120328 ?      SLsl Mar10   5:16 /usr/share/code/code --no-sandbox
+rafal       6748  0.0  0.0 189384   100 ?        S    Mar10   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+rafal       6749  0.0  0.0 189384     0 ?        S    Mar10   0:00 /usr/share/code/code --type=zygote --no-sandbox
+rafal       6778  0.3  0.6 497536 63416 ?        Sl   Mar10  18:03 /usr/share/code/code --type=gpu-process --field-trial-handle=12627985781437421538,15180899429181376357,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --gpu-preferences=OAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA== --shared-files
+rafal       6791  0.0  0.2 262128 20604 ?        Sl   Mar10   0:03 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=12627985781437421538,15180899429181376357,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --shared-files=v8_context_snapshot_data:100
+rafal       6809  0.3  2.5 15339672 252908 ?     Sl   Mar10  21:05 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12627985781437421538,15180899429181376357,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+rafal       6846  0.0  0.9 4597160 97840 ?       Sl   Mar10   3:11 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+rafal       6859  0.0  0.6 4627880 63544 ?       Sl   Mar10   1:21 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12627985781437421538,15180899429181376357,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+rafal       6888  0.0  0.3 4481068 32060 ?       Sl   Mar10   0:13 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+rafal       6912  0.1  0.2 4620408 25592 ?       Sl   Mar10   5:31 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+rafal       6933  0.0  0.0  11016   448 pts/1    Ss+  Mar10   0:00 /bin/bash
+rafal       6983  0.0  1.4 1521796 145416 ?      Sl   Mar10   4:01 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+rafal       7729  0.0  0.0  11008  3684 pts/3    Ss+  Mar10   0:00 bash
+rafal       7809  0.0  0.0 387828  5084 ?        Sl   Mar10   0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+rafal       7823  0.0  0.0 314988  1732 ?        Sl   Mar10   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+rafal       9571  0.6  2.1 2850544 219528 ?      Sl   Mar10  33:06 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 10726 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal       9614  0.6  5.1 3175808 511240 ?      Sl   Mar10  36:28 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 10726 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal      16369  0.0  0.1 4435524 19052 ?       Sl   Mar10   0:04 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6846
+rafal      18080  0.0  0.0  64296     4 pts/1    T    Mar10   0:00 ctest -V
+rafal      18081  0.0  0.0   7180     0 pts/1    T    Mar10   0:08 /home/rafal/Desktop/kurs_postawowy/kurs_cpp_podstawowy/module2/homework/nwdNww/build/nwdNww-ut
+rafal      18090  0.0  0.0  64296     4 pts/1    T    Mar10   0:00 ctest -V
+rafal      18091  0.0  0.0   7180     0 pts/1    T    Mar10   2:42 /home/rafal/Desktop/kurs_postawowy/kurs_cpp_podstawowy/module2/homework/nwdNww/build/nwdNww-ut
+rafal      21006  0.0  0.6 4955364 61712 ?       Sl   Mar10   0:15 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {15AC4855-B904-4C50-A01A-70CE2CE2B9FD}
+rafal      22309  0.0  0.0  12560  5940 pts/6    Ss+  Mar10   0:01 /bin/bash
+rafal      22771  0.0  0.0  64296  1680 pts/6    T    Mar10   0:00 ctest -V
+rafal      22772  0.0  0.0      0     0 pts/6    Z    Mar10   0:24 [generateSequenc] <defunct>
+root       30207  0.0  0.0      0     0 ?        I<   Mar11   0:00 [uas]
+rafal      30298  0.0  2.1 1595168 210488 ?      Sl   Mar11   0:41 /usr/bin/nautilus --gapplication-service
+rafal      37724  0.0  0.6 4955364 60728 ?       Sl   Mar11   0:08 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {236B8C1C-D901-4A65-97BA-E2554200EB0A}
+rafal      37926  0.0  0.6 4955364 67692 ?       Sl   Mar11   0:07 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {478547E3-A4D8-4B2E-A5A9-7181CC602A2D}
+rafal      38267  0.2  4.7 3175524 477060 ?      Sl   Mar11   9:46 /usr/lib/firefox/firefox -contentproc -childID 41 -isForBrowser -prefsLen 11355 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal      41279  0.1  1.3 2456140 130848 ?      Sl   Mar12   4:09 /usr/lib/firefox/firefox -contentproc -childID 45 -isForBrowser -prefsLen 11355 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+root       48384  0.0  0.0 166468  6712 ?        Sl   Mar12   0:00 gdm-session-worker [pam/gdm-password]
+root       48393  0.0  0.0 166468  6676 ?        Sl   Mar12   0:00 gdm-session-worker [pam/gdm-password]
+root       48399  0.0  0.0 166468  6760 ?        Sl   Mar12   0:00 gdm-session-worker [pam/gdm-password]
+rafal      51997  0.0  1.1 4955624 117304 ?      Sl   Mar13   0:06 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {123FBC40-8B09-43F0-B4DD-C6FDAF9A3229}
+rafal      52589  0.1  1.8 2631992 187668 ?      Sl   Mar13   1:16 /usr/lib/firefox/firefox -contentproc -childID 50 -isForBrowser -prefsLen 11495 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal      66240  0.0  0.5 854964 51100 ?        Sl   Mar13   0:00 /usr/bin/gnome-calendar --gapplication-service
+rafal      66889  0.0  0.1 610184 10500 ?        Ssl  Mar13   0:00 /usr/libexec/xdg-desktop-portal
+rafal      66893  0.0  0.2 488504 24448 ?        Ssl  Mar13   0:00 /usr/libexec/xdg-desktop-portal-gtk
+rafal      67517  0.5  1.8 2528128 182472 ?      Sl   Mar13   4:01 /usr/lib/firefox/firefox -contentproc -childID 60 -isForBrowser -prefsLen 11773 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+rafal      68099  0.0  0.3 462468 38948 ?        SLl  Mar13   0:00 /usr/bin/seahorse --gapplication-service
+rafal      70114  0.0  1.5 5140588 153996 ?      SLl  Mar13   0:14 /usr/share/code/code --no-sandbox --unity-launch
+rafal      70117  0.0  0.4 189384 41688 ?        S    Mar13   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+rafal      70118  0.0  0.4 189384 41468 ?        S    Mar13   0:00 /usr/share/code/code --type=zygote --no-sandbox
+rafal      70142  0.1  0.9 377728 95092 ?        Sl   Mar13   0:54 /usr/share/code/code --type=gpu-process --field-trial-handle=701181667562361748,3077450928506158326,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.2 --gpu-preferences=OAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA== --shared-files
+rafal      70161  0.0  0.6 243684 60408 ?        Sl   Mar13   0:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=701181667562361748,3077450928506158326,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.2 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --shared-files=v8_context_snapshot_data:100
+rafal      70187  0.2  2.2 15228928 223024 ?     Sl   Mar13   1:14 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=701181667562361748,3077450928506158326,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.2 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+rafal      70240  0.0  1.3 4584976 139144 ?      Sl   Mar13   0:12 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+rafal      70265  0.0  1.2 4610468 125444 ?      Sl   Mar13   0:08 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=701181667562361748,3077450928506158326,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.2 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+rafal      70277  0.0  0.8 4481068 86384 ?       Rl   Mar13   0:04 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+rafal      70309  0.0  0.6 4520008 67108 ?       Sl   Mar13   0:11 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+rafal      70365  0.0  0.6 1317528 68744 ?       Sl   Mar13   0:06 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+rafal      70727  0.1  2.3 15197496 238508 ?     Sl   Mar13   0:35 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=701181667562361748,3077450928506158326,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel --global-crash-keys=70da12ce-54f4-49b0-b922-c526e47100bc,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.2 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+rafal      70745  0.0  1.3 4570324 138316 ?      Sl   Mar13   0:09 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+rafal      70756  0.0  0.6 4475948 68760 ?       Sl   Mar13   0:00 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+rafal      70827  0.0  0.7 1372060 77968 ?       Sl   Mar13   0:17 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+rafal      70884  0.0  0.6 4433472 64128 ?       Sl   Mar13   0:00 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=70745
+rafal      70913  0.0  0.0  11936  6408 pts/2    Ss+  Mar13   0:00 /bin/bash
+root       71131  0.1  0.0      0     0 ?        I<   Mar13   0:32 [kworker/u17:0-i915_flip]
+rafal      71251  0.0  0.4 4955368 44152 ?       Sl   Mar13   0:00 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 70827 {A0FE61AD-9605-45D2-AF72-AF62FF37EE51}
+rafal      71263  0.0  0.2 4955368 28544 ?       Sl   Mar13   0:00 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 70365 {B2F23590-D9F8-4F11-9495-161096EA1A2F}
+rafal      71689  0.0  3.0 2919128 302036 ?      Sl   Mar13   0:11 /usr/lib/thunderbird/thunderbird
+root       73427  0.0  0.0      0     0 ?        I<   Mar13   0:09 [kworker/u17:2-rb_allocator]
+root       73511  0.0  0.0      0     0 ?        S    Mar13   0:00 [irq/30-mei_me]
+root       73543  0.0  0.0      0     0 ?        S    Mar13   0:00 [irq/16-mmc0]
+rafal      74411  1.2  1.4 2438616 144992 ?      Sl   Mar13   0:51 /usr/lib/firefox/firefox -contentproc -childID 62 -isForBrowser -prefsLen 11769 -prefMapSize 233072 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 3467 true tab
+root       74570  0.5  0.0      0     0 ?        I<   Mar13   0:17 [kworker/u17:3-rb_allocator]
+root       74640  0.0  0.0  28716  8892 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root       74641  0.0  0.1 180636 11948 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+root       74714  0.0  0.2 377856 24656 ?        Ssl  00:02   0:00 /usr/libexec/fwupd/fwupd
+root       74765  0.0  0.0      0     0 ?        I    00:07   0:00 [kworker/u16:2-ext4-rsv-conversion]
+root       74929  0.1  0.0      0     0 ?        I<   00:28   0:02 [kworker/u17:1-i915_flip]
+root       74956  0.1  0.0      0     0 ?        I    00:29   0:01 [kworker/1:1-events]
+root       74964  0.0  0.0      0     0 ?        I    00:30   0:00 [kworker/u16:0-iwlwifi]
+root       75006  0.1  0.0      0     0 ?        I    00:35   0:00 [kworker/0:2-events]
+root       75011  0.1  0.0      0     0 ?        I    00:36   0:01 [kworker/3:2-events]
+root       75023  0.2  0.0      0     0 ?        I    00:37   0:01 [kworker/2:2-events]
+root       75060  0.1  0.0      0     0 ?        I    00:40   0:00 [kworker/1:0-events]
+root       75069  0.2  0.0      0     0 ?        I    00:41   0:00 [kworker/0:0-events]
+root       75071  0.2  0.0      0     0 ?        I    00:41   0:00 [kworker/3:1-events]
+root       75074  0.0  0.0      0     0 ?        I    00:42   0:00 [kworker/u16:3-iwlwifi]
+root       75075  0.5  0.0      0     0 ?        I    00:42   0:01 [kworker/2:1-events]
+rafal      75114  0.0  0.0  10880  5136 pts/8    Ss+  00:43   0:00 /bin/bash
+rafal      75147  0.0  0.0  11012  5484 pts/9    Ss   00:44   0:00 bash
+rafal      75181  0.0  0.0   8148   520 pts/9    T    00:45   0:00 rm -r websocketpp/
+root       75187  0.2  0.0      0     0 ?        I    00:45   0:00 [kworker/1:2-events]
+root       75215  0.2  0.0      0     0 ?        I    00:46   0:00 [kworker/0:1-events]
+root       75241  0.2  0.0      0     0 ?        I    00:47   0:00 [kworker/3:0-events]
+root       75242  0.0  0.0      0     0 ?        I    00:47   0:00 [kworker/u16:1-iwlwifi]
+rafal      75246  0.3  0.2 434688 24784 ?        Ssl  00:47   0:00 /usr/libexec/tracker-store
+root       75266  0.5  0.0      0     0 ?        I    00:47   0:00 [kworker/2:0-events]
+rafal      75281  0.0  0.0  11500  3396 pts/9    R+   00:47   0:00 ps aux
+310 copy.txt
+message+     915  0.0  0.0   9960  4752 ?        Ss   Mar10   0:18 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         928  0.0  0.0  39324   408 ?        Ss   Mar10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1074  0.0  0.0 117852   268 ?        Ssl  Mar10   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+whoopsie    1583  0.0  0.0 326872  4956 ?        Ssl  Mar10   0:00 /usr/bin/whoopsie -f
+rafal       1612  0.1  0.1 4366708 11244 ?       S<sl Mar10   8:13 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+rafal       1617  0.0  0.0  14156  9112 ?        Ss   Mar10   0:15 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rafal       1619  0.0  0.0 240156  3016 ?        Sl   Mar10   0:02 /usr/bin/gnome-keyring-daemon --daemonize --login
+rafal       1694  0.0  0.0 164020  2644 tty2     Ssl+ Mar10   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rafal       1792  0.0  0.0   6040    32 ?        Ss   Mar10   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rafal       1818  0.0  0.0   7380  2252 ?        S    Mar10   0:02 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+rafal       1850  2.7  3.1 4683688 314564 ?      Ssl  Mar10 153:15 /usr/bin/gnome-shell
+rafal       1949  0.0  0.1 2660176 16080 ?       Sl   Mar10   0:01 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+rafal       2101  0.0  6.5 1891748 652160 ?      Sl   Mar10   0:42 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+rafal       6933  0.0  0.0  11016   448 pts/1    Ss+  Mar10   0:00 /bin/bash
+rafal       6983  0.0  1.4 1521796 145416 ?      Sl   Mar10   4:01 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+rafal      21006  0.0  0.6 4955364 61712 ?       Sl   Mar10   0:15 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {15AC4855-B904-4C50-A01A-70CE2CE2B9FD}
+rafal      22309  0.0  0.0  12560  5940 pts/6    Ss+  Mar10   0:01 /bin/bash
+rafal      30298  0.0  2.1 1595168 210488 ?      Sl   Mar11   0:41 /usr/bin/nautilus --gapplication-service
+rafal      37724  0.0  0.6 4955364 60728 ?       Sl   Mar11   0:08 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {236B8C1C-D901-4A65-97BA-E2554200EB0A}
+rafal      37926  0.0  0.6 4955364 67692 ?       Sl   Mar11   0:07 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {478547E3-A4D8-4B2E-A5A9-7181CC602A2D}
+rafal      51997  0.0  1.1 4955624 117304 ?      Sl   Mar13   0:06 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 6983 {123FBC40-8B09-43F0-B4DD-C6FDAF9A3229}
+rafal      66240  0.0  0.5 854964 51100 ?        Sl   Mar13   0:00 /usr/bin/gnome-calendar --gapplication-service
+rafal      68099  0.0  0.3 462468 38948 ?        SLl  Mar13   0:00 /usr/bin/seahorse --gapplication-service
+rafal      70365  0.0  0.6 1317528 68744 ?       Sl   Mar13   0:06 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+rafal      70827  0.0  0.7 1372060 77968 ?       Sl   Mar13   0:17 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+rafal      70913  0.0  0.0  11936  6408 pts/2    Ss+  Mar13   0:00 /bin/bash
+rafal      71251  0.0  0.4 4955368 44152 ?       Sl   Mar13   0:00 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 70827 {A0FE61AD-9605-45D2-AF72-AF62FF37EE51}
+rafal      71263  0.0  0.2 4955368 28544 ?       Sl   Mar13   0:00 /home/rafal/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 70365 {B2F23590-D9F8-4F11-9495-161096EA1A2F}
+rafal      75114  0.0  0.0  10880  5136 pts/8    Ss+  00:43   0:00 /bin/bash
