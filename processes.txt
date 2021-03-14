@@ -22,4 +22,4 @@
   709  cat history | tail -25 >> processes.txt 
   710  history | tail -25 >> processes.txt 
   711  head processes.txt 
-  712  history | tail -25 > processes.txt 
+ usinieta linijka 
